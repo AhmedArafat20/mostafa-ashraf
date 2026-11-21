@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مصطفى أشرف | Mostafa Ashraf</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<nav>
+  <div class="links"><a href="#about" data-t="n_about"></a><a href="#exp" data-t="n_exp"></a><a href="#skills" data-t="n_skills"></a><a href="#projects" data-t="n_proj"></a><a href="#contact" data-t="n_contact"></a></div>
+  <button id="lang" type="button">EN</button>
+</nav>
+<main>
+<section id="hero">
+  <div class="photo" id="photo"><b>MA</b></div>
+  <h1 id="name" data-t="name"></h1>
+  <div id="role" data-t="role"></div>
+  <p id="bio" data-t="bio"></p>
+  <div class="cta"><a class="btn p" href="#projects" data-t="c_work"></a><a class="btn" href="#contact" data-t="c_talk"></a></div>
+  <div class="stats"><div><strong>+9</strong><span data-t="s_years"></span></div><div><strong>9</strong><span data-t="s_roles"></span></div><div><strong>6</strong><span data-t="s_ads"></span></div></div>
+</section>
+
+<section id="about" class="rv">
+  <h2 data-t="n_about"></h2>
+  <div class="grid2">
+    <div class="card"><h3 data-t="edu_t"></h3><span>2021</span><p data-t="edu_d"></p></div>
+    <div class="card"><h3 data-t="about_t"></h3><p data-t="about_d"></p></div>
+  </div>
+</section>
+
+<section id="exp" class="rv">
+  <h2 data-t="n_exp"></h2>
+  <div class="tl" id="tl"></div>
+</section>
+
+<section id="skills" class="rv">
+  <h2 data-t="n_skills"></h2>
+  <div class="grid2">
+    <div><h4 data-t="sk1"></h4><div class="chips" id="c1"></div></div>
+    <div><h4 data-t="sk2"></h4><div class="chips" id="c2"></div></div>
+    <div><h4 data-t="sk3"></h4><div class="chips" id="c3"></div></div>
+  </div>
+  <h4 style="margin-top:44px" data-t="courses_t"></h4>
+  <div class="chips" id="c4"></div>
+</section>
+
+<section id="projects" class="rv">
+  <h2 data-t="n_proj"></h2>
+  <div class="gal" id="gal"></div>
+</section>
+
+<section id="contact" class="rv">
+  <h2 data-t="n_contact"></h2>
+  <div class="contact">
+    <a class="card" href="mailto:mostafa0101577@gmail.com"><span data-t="mail"></span><h3>mostafa0101577@gmail.com</h3></a>
+    <a class="card" href="tel:+201015771898"><span data-t="phone"></span><h3 dir="ltr">+20 101 577 1898</h3></a>
+    <div class="card"><span data-t="loc"></span><h3 data-t="city"></h3></div>
+  </div>
+</section>
+</main>
+<footer>© 2026 Mostafa Ashraf</footer>
+<div id="lb" role="dialog" aria-label="preview"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/background.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
